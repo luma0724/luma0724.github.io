@@ -22,12 +22,15 @@ mainSections = ["posts"]
   showScrollToTop = true
 
 [homepage]
-  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/takodachi_wallpaper.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
   showMoreLinkDest = "/posts"
+  cardView = true
+  cardViewScreenWidth = true
+  layoutBackgroundBlur = true
 
 [article]
   showDate = true
@@ -37,6 +40,7 @@ mainSections = ["posts"]
   showAuthor = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background
+  layoutBackgroundBlur = "true"
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = true
@@ -55,10 +59,16 @@ mainSections = ["posts"]
   sharingLinks = [ "linkedin", "twitter", "whatsapp", "pinterest", "reddit", "facebook", "email"]
 
 [list]
+  showHero = true
+  heroStyle = "background"
+  layoutBackgroundBlur = true
+  layoutBackgroundHeaderSpace = true
   showBreadcrumbs = false
   showSummary = false
-  showTableOfContents = true
-  showCards = false
+  showTableOfContents = false
+  showCards = true
+  cardView = true
+  cardViewScreenWidth = true
   groupByYear = true
 
 [sitemap]

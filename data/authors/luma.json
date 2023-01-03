@@ -1,0 +1,13 @@
+{
+    "name": "luma",
+    "image": "/img/angel_takodachi.jpeg",
+    "bio": "I’m only a takodachi, who did not pass the sanity test from [Ninomae Ina'nis](https://www.youtube.com/channel/UCMwGHR0BTZuLsmjY_NT5Pwg)",
+    "social": [
+        { "email": "mailto:luma0724@icloud.com" },
+        { "link": "https://luma0724.github.io" },
+        { "discord": "https://discord.gg/5eSSRk6mXS" },
+        { "github": "https://github.com/luma0724" },
+        { "instagram": "https://www.instagram.com/luma_0724/" },
+        { "stack-overflow": "https://stackoverflow.com/users/17443948/luma" }
+    ]
+}

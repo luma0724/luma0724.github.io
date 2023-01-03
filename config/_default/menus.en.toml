@@ -23,19 +23,19 @@
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 50
+  weight = 20
 
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/luma0724/luma0724.github.io"
-  weight = 20
+  weight = 30
 
 [[main]]
   identifier = "twitter"
   pre = "twitter"
   url = "https://twitter.com/lumao724"
-  weight = 30
+  weight = 40
 
 
 # -- Footer Menu --
